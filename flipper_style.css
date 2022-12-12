@@ -1,0 +1,136 @@
+html {
+    font-size: 6.25%;
+}
+
+body {
+    font-size: 16rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-transform: capitalize;
+    letter-spacing: 0.3em;
+    background-color: #F1f5f8
+}
+
+/* ==========
+  Typography
+  =============*/
+
+h1 {
+    font-size: 16rem;
+    color: #49A6E9;
+}
+
+nav a {
+    font-family: font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #063251;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #49A6E9;
+}
+
+nav a:active {
+    opacity: 0.3;
+}
+
+p {
+    font-size: 40rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 0.6em;
+    border-radius: 0.5em;
+    width: 650px;
+    min-width: 200px;
+}
+
+@media (max-width: 690px) {
+    p {
+        width: 100%;
+        font-size: 32rem;
+    }
+}
+
+button {
+    font-size: 16rem;
+    color: #222222;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    border: 2px solid #222222;
+    padding: 0.8em 1.3em;
+    border-radius: 0.5em;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 1.5px 2px rgba(0, 0, 0, 0.15);
+}
+
+button:hover,
+button:focus {
+    background-color: #222222;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.color {
+    color: #49A6E9;
+}
+
+
+/*==========
+  Layout
+  =============*/
+
+.nav-bar {
+    width: 70%;
+    max-width: 620px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.15);
+    background-color:#FFFFFF;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+.main-container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-height: 300px) {
+    .main-container {
+        min-height: 216px;
+    }
+}
+
+main {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
